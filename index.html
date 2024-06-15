@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Asistencia</title>
+</head>
+<body>
+    <h1>Registro de Asistencia</h1>
+    <p>Escanea el código QR de tu materia para registrar tu asistencia.</p>
+    <div>
+        <h2>Programación 1</h2>
+        <img src="{{ url_for('static', filename='Programacion1_qr.png') }}" alt="QR Programación 1">
+    </div>
+    <div>
+        <h2>Competencias Comunicacionales</h2>
+        <img src="{{ url_for('static', filename='Competencias_Comunicacionales_qr.png') }}" alt="QR Competencias Comunicacionales">
+    </div>
+    <div>
+        <h2>Bases de Datos</h2>
+        <img src="{{ url_for('static', filename='Bases_de_Datos_qr.png') }}" alt="QR Bases de Datos">
+    </div>
+    <div>
+        <h2>Aproximación al Mundo del Trabajo</h2>
+        <img src="{{ url_for('static', filename='Aproximacion_al_Mundo_del_Trabajo_qr.png') }}" alt="QR Aproximación al Mundo del Trabajo">
+    </div>
+    <div>
+        <h2>Elementos de Matemática y Lógica</h2>
+        <img src="{{ url_for('static', filename='Elementos_de_Matematica_y_Logica_qr.png') }}" alt="QR Elementos de Matemática y Lógica">
+    </div>
+    <div>
+        <h2>Sistemas y Organizaciones</h2>
+        <img src="{{ url_for('static', filename='Sistemas_y_Organizaciones_qr.png') }}" alt="QR Sistemas y Organizaciones">
+    </div>
+</body>
+</html>
